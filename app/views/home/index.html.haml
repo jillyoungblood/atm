@@ -1,0 +1,16 @@
+%h1 HOME
+
+
+%h3 Checking
+
+#showcheckbalance
+.one= text_field_tag 'check_amount'
+.one= submit_tag 'deposit', :id => 'depositchecking'
+.one= submit_tag 'withdraw', :id => 'withdrawchecking'
+
+%h3 Savings
+
+#showsavebalance
+.one= text_field_tag 'save_amount'
+.one= submit_tag 'deposit', :id => 'depositsavings'
+.one= submit_tag 'withdraw', :id => 'withdrawsavings'
